@@ -1,0 +1,85 @@
+
+.card{
+    background-color: lightblue;
+    border-radius: 25px;
+    border: 5px solid black;
+    transition: border-color 1.0s;
+}
+
+.card:hover {
+    border: 5px dashed cornflowerblue;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+
+}
+.heading{
+    border-color: black;
+    border-radius: 25px;
+    background-color: lightblue;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Courier New';
+    text-align: center;
+    margin: 30px;
+    line-height: 0.25;
+
+}
+
+#textInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: black;
+    font-size: 13px;
+}
+#name {
+    color:white;
+    font-size: 18px;
+}
+
+
+#links {
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    gap:10px;
+}
+
+#education {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#github {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5px;
+}
+
+#linkedin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5px;
+}
+
+#mail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5px;
+}
+
+a {
+    font-size: 13px;
+}
