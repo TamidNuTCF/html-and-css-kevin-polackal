@@ -6,16 +6,7 @@
     transition: border-color 1.0s;
 }
 
-.card:hover {
-    border: 5px dashed cornflowerblue;
-}
-
-.image{
-    display: flex;
-    justify-content: center;
-
-}
-.heading{
+.container{
     border-color: black;
     border-radius: 25px;
     background-color: lightblue;
@@ -28,7 +19,28 @@
 
 }
 
-#textInfo {
+#name {
+    color: black;
+    transition: color 1.0s;
+}
+
+
+#name:hover {
+    color: cornflowerblue;
+}
+
+.card:hover {
+    border: 5px dashed cornflowerblue;
+}
+
+
+
+#tamid {
+    color:white;
+    font-size: 18px;
+}
+
+#main_body {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -37,11 +49,12 @@
     color: black;
     font-size: 13px;
 }
-#name {
-    color:white;
-    font-size: 18px;
-}
 
+#image{
+    display: flex;
+    justify-content: center;
+
+}
 
 #links {
     display: flex;
@@ -57,6 +70,16 @@
     gap:5px;
     font-weight: bold;
     font-size: 20px;
+}
+
+#edmem {
+    color: black;
+    transition: color 1.0s;
+}
+
+
+#edmem:hover {
+    color: cornflowerblue;
 }
 
 #github {
@@ -82,4 +105,10 @@
 
 a {
     font-size: 13px;
+    color: black;
+    transition: color 1.0s;
+}
+
+a:hover{
+    color: cornflowerblue; 
 }

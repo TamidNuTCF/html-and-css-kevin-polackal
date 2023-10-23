@@ -1,9 +1,11 @@
 
 .card{
+    width: 300px;
     background-color: lightblue;
     border-radius: 25px;
     border: 5px solid black;
     transition: border-color 1.0s;
+    margin: auto;
 }
 
 .card:hover {
@@ -15,7 +17,7 @@
     justify-content: center;
 
 }
-.heading{
+.container{
     border-color: black;
     border-radius: 25px;
     background-color: lightblue;
@@ -24,11 +26,20 @@
     font-family: 'Courier New';
     text-align: center;
     margin: 30px;
-    line-height: 0.25;
-
+    line-height: 0.85;
 }
 
-#textInfo {
+#name {
+    color: black;
+    transition: color 1.0s;
+}
+
+
+#name:hover {
+    color: cornflowerblue;
+}
+
+#main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,7 +48,7 @@
     color: black;
     font-size: 13px;
 }
-#name {
+#tamid {
     color:white;
     font-size: 18px;
 }
@@ -47,6 +58,7 @@
     display: flex;
     justify-content: center;
     flex-direction:column;
+    align-items: center;
     gap:10px;
 }
 
@@ -57,6 +69,17 @@
     gap:5px;
     font-weight: bold;
     font-size: 20px;
+    line-height: 0px;
+}
+
+#edmem {
+    color: black;
+    transition: color 1.0s;
+}
+
+
+#edmem:hover {
+    color: cornflowerblue;
 }
 
 #github {
@@ -82,4 +105,10 @@
 
 a {
     font-size: 13px;
+    color: black;
+    transition: color 1.0s;
+}
+
+a:hover{
+    color: cornflowerblue; 
 }
